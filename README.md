@@ -15,6 +15,75 @@
 ###  Consolidated CSS classes and selectors:
     * A review of the style sheet found that there were a number of classes that essentially dictated the same exact style. Such classes were replaced by a singular class along with the corresponding html element's class. 
 
+    Example: 
+    .benefit-lead {
+        margin-bottom: 32px;
+        color: #ffffff;
+    }
+
+    .benefit-brand {
+        margin-bottom: 32px;
+        color: #ffffff;
+    }
+
+    .benefit-cost {
+        margin-bottom: 32px;
+        color: #ffffff;
+    }
+
+    .benefit-lead h3 {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .benefit-brand h3 {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .benefit-cost h3 {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .benefit-lead img {
+        display: block;
+        margin: 10px auto;
+        max-width: 150px;
+    }
+
+    .benefit-brand img {
+        display: block;
+        margin: 10px auto;
+        max-width: 150px;
+    }
+
+    .benefit-cost img {
+        display: block;
+        margin: 10px auto;
+        max-width: 150px;
+    }
+
+    Were all replaced with: 
+
+    .benefit-swag {
+    margin-bottom: 32px;
+    color: #ffffff;
+    }
+
+    .benefit-swag h3 {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .benefit-swag img {
+        display: block;
+        margin: 10px auto;
+        max-width: 150px;
+    }
+
+    This resulted in the CSS line count going from 200 lines to 145 lines.
+
 
 ## Screenshot of Live Webpage:
 ![Screenshot](assets/images/Screehshot-Preview-Demo.png)
