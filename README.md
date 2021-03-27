@@ -1,5 +1,9 @@
 # Refactor of Horiseon Webpage
 
+## Goal/Description of Project: 
+
+    * To refactor the Horiseon webpage source code to be more accessible, minimize stylesheet literature, organize html elements, and ensure headings follow a logical structure order.
+
 ## Description of changes
 
 ### HTML Changes: 
