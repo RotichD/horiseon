@@ -88,6 +88,9 @@
 
     This resulted in the CSS line count going from 200 lines to 145 lines.
 
+### CSS: 
+    * Class selectors were changed to satisfy change of <div> to <nav> element
+
 
 ## Screenshot of Live Webpage:
 ![Screenshot](assets/images/Screehshot-Preview-Demo.png)
